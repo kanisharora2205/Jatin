@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Feedback Form</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="assembly.html">PC Assembly Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="feedback">
+        <h2>We value your feedback!</h2>
+        <p>Please fill out the form below to share your experience with us.</p>
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="rating">Overall Satisfaction:</label>
+            <select id="rating" name="rating">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <label for="comments">Your Feedback:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+
+            <label for="recommend">Would you recommend us?</label>
+            <input type="radio" id="yes" name="recommend" value="yes"> <label for="yes">Yes</label>
+            <input type="radio" id="no" name="recommend" value="no"> <label for="no">No</label>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 PC Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

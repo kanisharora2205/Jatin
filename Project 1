@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exotic Builds</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Exotic Builds</h1>   
+        <nav>
+            <ul>
+                <li><a href="assembly.html">PC Assembly Guide</a></li>
+                <li><a href="Feedback.html">Give a Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Build or Buy Your Perfect PC</h2>
+        <p>Find prebuilt PCs or learn how to build your own with our step-by-step guide.</p>
+        <img src="hero_pc.jpg" alt="PC Showcase" class="hero-image">
+    </section>
+    <section class="products">
+        <h2>Prebuilt PCs</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="13.jpg" alt="Gaming PC">
+                <h3>Gaming Beast</h3>
+                <p>Ryzen 9 5900X, RTX 3080, 32GB RAM, 1TB SSD</p>
+                <span>$2499</span>
+            </div>
+            <div class="product">
+                <img src="15.jpg" alt="Workstation PC">
+                <h3>Workstation Pro</h3>
+                <p>Intel i9-12900K, RTX 4080, 64GB RAM, 2TB SSD</p>
+                <span>$3499</span>
+            </div>
+            <div class="product">
+                <img src="14.jpg" alt="Budget PC">
+                <h3>Budget King</h3>
+                <p>Ryzen 5 5600X, GTX 1660 Super, 16GB RAM, 512GB SSD</p>
+                <span>$899</span>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@pcstore.com</p>
+        <p>Phone: +1 234 567 890</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 PC Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
